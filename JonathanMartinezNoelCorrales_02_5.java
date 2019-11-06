@@ -33,6 +33,25 @@ public class JonathanMartinezNoelCorrales_2_05{
       } //End method
       
       //*************************************
+
+   public static void printHeading ()
+   {
+      System.out.print();
+      outputFile.print();
+   }
+
+   //****************************************
+
+   public static void printDetail()
+   {
+
+   }
+
+   //*******************************************
+   public static void printSummary()
+   {
+      
+   }
    
    public static void main(String[] args) throws IOException {
    
