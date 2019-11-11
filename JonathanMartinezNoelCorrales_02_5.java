@@ -26,18 +26,18 @@ public class JonathanMartinezNoelCorrales_2_05{
       //*************************************
       
    public static void printReport(Employee empl,int nread, PrintWriter output){
-      PrintHeading();
-      PrintDetail();
-      PrintSummary();
+      printHeading();
+      printDetail();
+      printSummary();
       
       } //End method
       
       //*************************************
 
-   public static void printHeading ()
+   public static void printHeading (PrintWriter outputFile)
    {
-      System.out.print();
-      outputFile.print();
+      System.out.print("");
+      outputFile.print("");
    }
 
    //****************************************
@@ -55,6 +55,10 @@ public class JonathanMartinezNoelCorrales_2_05{
    
    public static void main(String[] args) throws IOException {
    
+  
+      final String INPUT_FILE  = "JonathanMartinez_2_01_Input.txt";
+      final String OUTPUT_FILE = "JonathanMartinez_2_01_Output.txt";
+
       File inputDataFile = new File(INPUT_FILE);
       Scanner inputFile  = new Scanner(inputDataFile);
       
